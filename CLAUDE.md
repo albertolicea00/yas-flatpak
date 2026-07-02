@@ -2,9 +2,9 @@
 
 ## What
 Native GUI wrapper for **Flatpak** (`flatpak`). Part of YAS suite.
-Status: **docs-only — no code yet**.
+Status: **scaffolded & unit-tested** — vendored core + adapter + QML shell compile, 3/3 QtTest suites pass (verified cross-compiling on macOS). Pending: build + QA on the real target platform.
 
-## Stack (planned)
+## Stack
 - C++20 + Qt 6.7+ (Qt Quick / QML), CMake ≥ 3.24, GCC/Clang
 - Native windowing via Qt QPA plugins: **wayland** with **xcb** (X11) fallback.
 - CLI execution: `QProcess` wrapping `flatpak`. Never bundle it.
@@ -22,7 +22,7 @@ Any Linux distro with flatpak. x64 + arm64.
 - Appstream metadata (icons, screenshots, descriptions) available locally under remote's appstream dir — use for rich UI instead of CLI-only metadata. libflatpak exists if CLI wrapping falls short; v1 wraps CLI per suite convention.
 
 ## Design (see DESIGN.md)
-- Dark theme. Base `#1E1E2E`, accent **Lime `#CDDC39`**, highlight `#CDDC391A`, text `#F8F8F2` / `#A9B1D6`.
+- Dark theme. Base `#212826`, accent **Lime `#CDDC39`**, highlight `#CDDC391A`, text `#F8F8F2` / `#ACADAD`.
 - App tag: **FLATPAK**. Fonts: Outfit/Inter (UI), Fira Code or JetBrains Mono (CLI output).
 
 ## Conventions
