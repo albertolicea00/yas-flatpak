@@ -22,7 +22,7 @@ Any Linux distro with flatpak. x64 + arm64.
 - Appstream metadata (icons, screenshots, descriptions) available locally under remote's appstream dir — use for rich UI instead of CLI-only metadata. libflatpak exists if CLI wrapping falls short; v1 wraps CLI per suite convention.
 
 ## Design (see DESIGN.md)
-- Dark theme. Base `#212826`, accent **Lime `#CDDC39`**, highlight `#CDDC391A`, text `#F8F8F2` / `#ACADAD`.
+- Dark theme. Base `#222629`, accent **Lime `#CDDC39`**, highlight `#CDDC391A`, text `#F8F8F2` / `#ACADAD`.
 - App tag: **FLATPAK**. Fonts: Outfit/Inter (UI), Fira Code or JetBrains Mono (CLI output).
 
 ## Conventions
