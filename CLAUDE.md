@@ -22,6 +22,7 @@ Any Linux distro with flatpak. x64 + arm64.
 - Appstream metadata (icons, screenshots, descriptions) available locally under remote's appstream dir — use for rich UI instead of CLI-only metadata. libflatpak exists if CLI wrapping falls short; v1 wraps CLI per suite convention.
 
 ## Design (see DESIGN.md)
+- UI shell: **Teams-style** — icon rail | list panel | detail pane (no in-app title header). Light/dark mode persisted via `YasManager` context property (`src/core/thememanager.*`, QSettings), toggle at rail bottom. Both palettes live in `qml/core/Theme.qml` (`Theme.dark`).
 - Dark theme. Base `#222629`, accent **Lime `#CDDC39`**, highlight `#CDDC391A`, text `#F8F8F2` / `#ACADAD`.
 - App tag: **FLATPAK**. Fonts: Outfit/Inter (UI), Fira Code or JetBrains Mono (CLI output).
 
