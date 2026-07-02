@@ -1,0 +1,50 @@
+{
+  "categories": [
+    {
+      "name": "Apps",
+      "packages": [
+        {
+          "id": "org.mozilla.firefox",
+          "name": "Firefox",
+          "description": "Web browser",
+          "kind": "app"
+        },
+        {
+          "id": "org.videolan.VLC",
+          "name": "VLC",
+          "description": "Media player",
+          "kind": "app"
+        },
+        {
+          "id": "com.spotify.Client",
+          "name": "Spotify",
+          "description": "Music streaming",
+          "kind": "app"
+        }
+      ]
+    },
+    {
+      "name": "Creative",
+      "packages": [
+        {
+          "id": "org.gimp.GIMP",
+          "name": "GIMP",
+          "description": "Image editor",
+          "kind": "app"
+        },
+        {
+          "id": "org.inkscape.Inkscape",
+          "name": "Inkscape",
+          "description": "Vector graphics",
+          "kind": "app"
+        },
+        {
+          "id": "org.blender.Blender",
+          "name": "Blender",
+          "description": "3D creation suite",
+          "kind": "app"
+        }
+      ]
+    }
+  ]
+}
